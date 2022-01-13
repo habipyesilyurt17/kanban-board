@@ -1,0 +1,88 @@
+.modal {
+  width: 90%;
+  background: var(--main-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  position: fixed;
+  top: 20vh;
+  left: 5%;
+  z-index: 100;
+}
+
+.modal__header {
+  padding: 1rem;
+  background: var(--second-dark);
+  color: var(--main-color);
+}
+
+.modal__header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.modal__content {
+  padding: 1rem;
+}
+
+.modal__actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 1rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 30rem;
+    left: calc((100% - 30rem) / 2);
+  }
+}
+
+.form-control label,
+.form-control input,
+.form-control select,
+.form-control textarea {
+  width: 100%;
+  display: block;
+  color: var(--first-dark);
+
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  height: 30px;
+}
+
+.form-control input:focus {
+  border: 1px solid var(--second-dark);
+  box-shadow: 0 0 2px var(--second-dark);
+}
+
+input:focus {
+  outline-offset: 0px !important;
+  outline: none !important;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.modal-btn {
+  background: none;
+  font: inherit;
+  border: 1px solid var(--second-dark);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: var(--second-dark);
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.modal-btn:hover {
+  background: var(--second-dark);
+  color: var(--main-color);
+}

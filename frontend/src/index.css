@@ -1,0 +1,16 @@
+:root {
+  --main-color: #fff;
+  --first-dark: #000;
+  --second-dark: #262626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--first-dark);
+}

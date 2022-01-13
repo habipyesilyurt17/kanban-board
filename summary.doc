@@ -1,0 +1,22 @@
+Proje Özeti :
+
+- Birden fazla Board Listesinden herhangi biri tıklandığında sahip olduğu id değeri ile ilgili Board ekranı açılacak
+- Açılacak olan Board ekranında static 4 liste yer alacak. Bunlar; Backlog, To Do, in Progress ve Done.
+- Bu static listelerin kendilerine ait kartları olacak.
+- Kartlar renklendirilip, listeler arası taşınabilecek.
+
+İzlenen Adımlar :
+
+- Proje tasarım ekranları çıkarıldı.
+- Api için endpointler belirlendi.
+- Node.js, express ve graphql teknolojileri kullanılarak backend tarafı tasarlandı.
+- Verileri kaydetmek için MongoDB Cloud  üzerinden bir proje oluşturulup datalar orada tutuldu.
+- İlgili ekranların öncelikli olarak html ve css dökümanları hazırlandı.
+- Frontend tarafı için React projesi oluşturulup ilgili ekranların componentları tasarlandı.
+- Beckend tarafında hazırlamış olduğum apileri kullanarak ui tarafında veri listeleme, kaydetme ve güncelleme işlemleri yapıldı. (axios ile)
+- Proje açılış ekranında Boardları listelediğim bir ekran karşınıza çıkacak ve bir Board oluşturmanız gerekecek.
+- Oluşturulan boarda tıklandığında id değeri ile boardun profile sayfası açılacak ve sabit 4 listesi listelenecek.
+- Burada ilgili listeler için kart girişi yapılacak. Kart girşi esnasında kartın rengi ve type'ı belirleniyor. Type ına göre gideceği liste belirleniyor.
+- Oluşan kartın title hizasında bulnan ... ya tıklandığında açılacak olan ekranda kartın rengi update edilecek.Bu işlemde backend tarafında değişiyor.
+- Kartlarda yer alan tagler sattic set edildi ve hepsinde sabit.
+- Son olarak kartların listeler arası taşınması olayını henüz tammalayamadım.

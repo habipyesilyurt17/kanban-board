@@ -1,0 +1,32 @@
+.boards-control {
+  width: 30rem;
+  max-width: 80%;
+  text-align: center;
+  border: 2px solid var(--main-color);
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+.boards-control p {
+  color: var(--main-color);
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+
+.default-btn {
+  background: none;
+  font: inherit;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: var(--main-color);
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.default-btn:hover {
+  background: var(--main-color);
+  color: var(--second-dark);
+}

@@ -1,0 +1,7 @@
+{
+	"env": {
+		"MONGO_USER": "habip",
+		"MONGO_PASSWORD": "2YF2t7XxG6iqt9VQ",
+		"MONGO_DB": "kanban-boards"
+	}
+}

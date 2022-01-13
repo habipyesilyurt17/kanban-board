@@ -1,0 +1,19 @@
+.boards__list-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.board__item-link {
+    font-size: .7em;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.board__item-link:hover {
+    color: #5101d1;
+}

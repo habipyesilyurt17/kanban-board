@@ -1,0 +1,9 @@
+.not-found {
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--main-color);
+}
