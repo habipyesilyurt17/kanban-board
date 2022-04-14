@@ -1,38 +1,60 @@
-# Kanban Board
+## About The Project
 
-## Installation
+In this Project, more than one Board List can be created and each list has 4 static lists in itself. These are Backlog, To Do, in Progress and Done. Cards belonging to each static list can be created, colored and updated differently. Cards should be able to be moved between lists by drag and drop method. But this stage is not yet completed.
 
-Öncelikle Projeyi clonelayın ve istediğiniz bir editör ile açın.
+### Built With
 
-```sh
-git clone git@github.com:habipyesilyurt17/kanban-board.git
-```
+- [React.js](https://reactjs.org/)
+- [GraphQl](https://graphql.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
 
-## Project setup
-Proyi kendi dizininde iken terminal yardımı ile ilgili paketleri yükleyin.
-```sh
-npm install 
-```
-Benzer şekilde aynı işlemi proje dosyları içerisinde yer alan frontend dosyası dizinine giderek yapın.
-```sh
-cd frontend
-npm install
-```
 
-## Compile
-İki farklı terminal ekranından hem serverı hemde clientı ayağa kaldıralım.
+## Getting Started
 
-Server için projenin kendi dizininde şu komut satırını çalıştırın.
-```sh
-npm start
-```
-Client için projenin frontend dizinine geçmek ve projeyi çalıştırmak için şu komut satırlarını çalıştırın.
-```sh
-cd frontend
-npm start
-```
-## Api Testleri
-Server ayağa kalkdıktan sonra aşağıda yer alan endpoint ile grapiql panelinden GraphQL sorgularının testlerini rahatlıkla yapabilirsiniz.
-```sh
-http://localhost:8000/graphql
-```
+To get this project copy up and running follow these simple steps.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/)
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git@github.com:habipyesilyurt17/kanban-board.git
+   ```
+2. Install packages
+    - For Client Side, you must switch to the frontend directory of the project. Then you have to install the packages.
+      ```sh
+        cd frontend
+        npm install
+        # or
+        yarn install
+      ```
+    - For Server Side, you must switch to the own directory of the project. Then you have to install the packages.
+        ```sh
+        npm install
+        # or
+        yarn install
+      ```
+3. Let's raise both the server and the client from two different terminal screens.
+      - Run the server
+      ```bash
+      npm start
+      # or
+      yarn start
+      ```
+
+    - Run the client
+    ```bash
+      cd frontend
+      npm start
+      # or
+      yarn start
+    ```
+4. You can test GraphQL queries from the grapiql panel.
+    ```sh
+    http://localhost:8000/graphql
+    ```
